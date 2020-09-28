@@ -2,6 +2,10 @@
 
 Build all Magnum projects and it's dependencies from single project using CMake.
 
+This configuration is currently tested on platforms:
+
+- Linux
+
 # How to get started
 
 Clone following Magnum projects to one root directory just beside your `magnum-build` project.

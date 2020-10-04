@@ -1,0 +1,67 @@
+{
+  "buildType": {
+    "default": "Release",
+    "description": "My options",
+    "choices": {
+      "debug": {
+        "short": "Debug",
+        "long": "Emit debug information without performing optimizations",
+        "buildType": "Debug"
+      },
+      "minsize": {
+        "short": "Release",
+        "long": "Optimize for smallest binary size",
+        "buildType": "Release"
+      }
+    }
+  },
+  "application": {
+    "default": "Desktop",
+    "choices": {
+      "Desktop": {
+        "short": "Desktop",
+        "settings": {
+          // Magnum
+          "WITH_SDL2APPLICATION" : "ON",
+          "WITH_IMAGECONVERTER": "ON",
+          // Magnum Examples
+          "WITH_IMGUI_EXAMPLE": "ON",
+          "WITH_MOTIONBLUR_EXAMPLE": "ON",
+          "WITH_MOUSEINTERACTION_EXAMPLE": "ON",
+          "WITH_PICKING_EXAMPLE": "ON",
+          "WITH_PRIMITIVES_EXAMPLE": "ON",
+          "WITH_SHADOWS_EXAMPLE": "ON",
+          "WITH_VIEWER_EXAMPLE": "ON",
+          "WITH_TEXT_EXAMPLE": "ON",
+          "WITH_TRIANGLE_EXAMPLE": "ON",
+          "WITH_TEXTUREDTRIANGLE_EXAMPLE": "ON",
+          "WITH_AUDIO_EXAMPLE": "OFF",
+          "WITH_VIDEO_EXAMPLE": "OFF",
+           // Magnum Build
+          "BUILD_WITH_MAGNUM_BOOTSTRAP": "OFF",
+          "BUILD_WITH_MAGNUM_EXAMPLES": "ON",
+          "BUILD_WITH_MAGNUM_EXTRAS": "ON"
+        }
+      },
+      "Android": {
+        "short": "Android",
+        "settings": {
+          // Magnum Build
+          "BUILD_WITH_MAGNUM_BOOTSTRAP": "OFF",
+          "BUILD_WITH_MAGNUM_EXAMPLES": "ON",
+          "BUILD_WITH_MAGNUM_EXTRAS": "OFF",
+          // Magnum
+          "WITH_ANDROIDAPPLICATION" : "ON",
+          "TARGET_GLES2": "OFF",
+          "TARGET_GLES3": "ON",
+          "WITH_EGLCONTEXT": "ON",
+          "BUILD_PLUGINS_STATIC": "ON",
+          "WITH_IMAGECONVERTER": "OFF",
+          // Magnum Examples
+          "WITH_TRIANGLE_EXAMPLE": "ON",
+          "CORRADE_RC_EXECUTABLE": "${workspaceFolder}/build/Desktop-${buildType}/${buildType}/bin/corrade-rc"
+        }
+      }
+    }
+  }
+}

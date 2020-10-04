@@ -9,14 +9,10 @@
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
     "cmake.configureOnOpen": false,
-    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}",
+    "cmake.buildDirectory": "${workspaceFolder}/build/${variant:application}-${buildType}",
     "cmake.parallelJobs": 8,
     "cmake.configureArgs": [],
     "cmake.configureSettings": {
-        // Magnum Build
-        "BUILD_WITH_MAGNUM_BOOTSTRAP": "OFF",
-        "BUILD_WITH_MAGNUM_EXAMPLES": "ON",
-        "BUILD_WITH_MAGNUM_EXTRAS": "ON",
         // Corrade
         "WITH_INTERCONNECT": "ON",
         "WITH_PLUGINMANAGER": "ON",
@@ -36,7 +32,6 @@
         "WITH_WAVAUDIOIMPORTER": "OFF",
         "WITH_DISTANCEFIELDCONVERTER": "ON",
         "WITH_FONTCONVERTER": "ON",
-        "WITH_IMAGECONVERTER": "ON",
         "WITH_GL_INFO": "ON",
         "WITH_AL_INFO": "OFF",
         "WITH_DEBUGTOOLS": "ON",
@@ -53,19 +48,6 @@
         "WITH_STBTRUETYPEFONT": "ON",
         "WITH_GSTVIDEOIMPORTER": "ON",
         "WITH_IMGUI": "ON",
-        // Magnum Examples
-        "WITH_IMGUI_EXAMPLE": "ON",
-        "WITH_MOTIONBLUR_EXAMPLE": "ON",
-        "WITH_MOUSEINTERACTION_EXAMPLE": "ON",
-        "WITH_PICKING_EXAMPLE": "ON",
-        "WITH_PRIMITIVES_EXAMPLE": "ON",
-        "WITH_SHADOWS_EXAMPLE": "ON",
-        "WITH_VIEWER_EXAMPLE": "ON",
-        "WITH_TEXT_EXAMPLE": "ON",
-        "WITH_TRIANGLE_EXAMPLE": "ON",
-        "WITH_TEXTUREDTRIANGLE_EXAMPLE": "ON",
-        "WITH_AUDIO_EXAMPLE": "OFF",
-        "WITH_VIDEO_EXAMPLE": "OFF",
         // Magnum Extras
         "WITH_PLAYER": "ON",
         "WITH_UI": "ON",
@@ -73,6 +55,7 @@
         // Shared
         "BUILD_TESTS": "OFF",
         "BUILD_GL_TESTS": "OFF",
+        "BUILD_DEPRECATED": "ON",
         "BUILD_STATIC": "ON"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"

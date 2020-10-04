@@ -11,7 +11,7 @@ CMake will configure and build following targets:
 - Magnum Examples (optional) - [https://github.com/mosra/magnum-examples](https://github.com/mosra/magnum-examples)
 - Magnum Extras (optional) - [https://github.com/mosra/magnum-extras](https://github.com/mosra/magnum-extras)
 
-This configuration is currently tested on platforms:
+This configuration is tested on platforms:
 
 - Linux
 - MAC

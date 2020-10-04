@@ -5,6 +5,14 @@ Build all Magnum projects and it's dependencies from single project using CMake.
 This configuration is currently tested on platforms:
 
 - Linux
+- MAC
+- Android
+
+# Prerequisites
+
+- [Setup MAC](doc/setup-mac.md)
+
+- [Setup Linux](doc/setup-linux.md)
 
 # How to get started
 

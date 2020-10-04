@@ -1,6 +1,15 @@
 # Magnum Build
 
-Build all Magnum projects and it's dependencies from single project using CMake.
+Build all Magnum projects, it's dependencies and samples from single project using CMake.
+
+CMake will configure and build following targets:
+- Corrade - [https://github.com/mosra/corrade](https://github.com/mosra/corrade)
+- Magnum - [https://github.com/mosra/magnum](https://github.com/mosra/magnum)
+- Magnum Plugins - [https://github.com/mosra/magnum-plugins](https://github.com/mosra/magnum-plugins)
+- Magnum Integration - [https://github.com/mosra/magnum-integration](https://github.com/mosra/magnum-integration)
+- Magnum Bootstrap (optional) - [https://github.com/mosra/magnum-bootstrap](https://github.com/mosra/magnum-bootstrap)
+- Magnum Examples (optional) - [https://github.com/mosra/magnum-examples](https://github.com/mosra/magnum-examples)
+- Magnum Extras (optional) - [https://github.com/mosra/magnum-extras](https://github.com/mosra/magnum-extras)
 
 This configuration is currently tested on platforms:
 
@@ -53,3 +62,7 @@ $ ./scripts/setup-dev-desktop.sh Release
 $ cd ./build/Desktop-Release
 $ ninja -j6
 ```
+
+# Configure with IDE
+
+- [Configure VS Code](doc/configure-vs-code.md)

@@ -34,7 +34,7 @@ git clone git@github.com:mosra/magnum-plugins.git
 git clone git@github.com:mosra/magnum-integration.git
 git clone git@github.com:mosra/magnum-examples.git
 git clone git@github.com:mosra/magnum-extras.git
-git clone -b base git@github.com:mosra/magnum-bootstrap.git
+git clone -b <base/base-android/...> git@github.com:mosra/magnum-bootstrap.git
 git clone git@github.com:janbajana/magnum-build.git
 ```
 

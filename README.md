@@ -55,12 +55,30 @@ $ ninja -j6
 
 This is a minimal configuration which builds only `magnum-triangle` example.
 
-To see how magnum projects can be configured try to run helper script in script folder.
+## Configure using script helpers
+
+The project includes `./scripts/*.sh` helper scripts to setup CMake with all avaiable options.
+
+To see how magnum projects can be configured try to run:
 
 ```
 $ ./scripts/setup-dev-desktop.sh Release
 $ cd ./build/Desktop-Release
 $ ninja -j6
+```
+
+for Android
+
+```
+$ ./scripts/setup-dev-android.sh Release
+$ cd ./build/Desktop-Release
+$ ninja -j6
+```
+
+If you build magnum axamples for Android you have to chekcout branch from here, only `magnum-triangle` is currrently configurable:
+
+```
+git clone -b origin/jb/android-build git@github.com:janbajana/magnum-examples.git
 ```
 
 # Configure with IDE

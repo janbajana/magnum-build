@@ -40,7 +40,7 @@ To configure and build the projects follow steps:
 3. CMake: Configure
 4. CMake: Build
 
-Video example: configure, build and run on Linux
+Video example: configure, build and run or debug on Linux
 
 - [https://youtu.be/GiLEnpzjV64](https://youtu.be/GiLEnpzjV64)
 

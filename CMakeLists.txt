@@ -16,7 +16,7 @@ else()
 endif()
 
 # Add Magnum as a subproject, enable Sdl2Application
-set(WITH_SDL2APPLICATION ON CACHE BOOL "" FORCE)
+# set(WITH_SDL2APPLICATION ON CACHE BOOL "" FORCE)
 set(magnum_path "${CMAKE_CURRENT_LIST_DIR}/../magnum")
 if (EXISTS "${magnum_path}")
     add_subdirectory("${magnum_path}" magnum)

@@ -9,7 +9,6 @@
     "C_Cpp.updateChannel": "Insiders",
     "explorer.confirmDelete": false,
     "cmake.configureOnOpen": false,
-    "cmake.cmakePath": "/snap/cmake/current/bin/cmake",
     "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}",
     "cmake.parallelJobs": 8,
     "cmake.configureArgs": [],
@@ -75,5 +74,6 @@
         "BUILD_TESTS": "OFF",
         "BUILD_GL_TESTS": "OFF",
         "BUILD_STATIC": "ON"
-    }
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

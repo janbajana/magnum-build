@@ -18,7 +18,7 @@ It is recommended to have installed `Xcode` as well.
 
 ## 1.2 Android SDK/NDK Tools
 
-You can install Android SDK tools using `Homebrew` or from Android Studio directly.
+You can install Android SDK tools using `Homebrew` or from Android Studio directly. Skip this section if you do not target Android.
 
 The Android NDK/SDK and tools needs to be available from following environment variables:
 ```

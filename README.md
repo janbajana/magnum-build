@@ -75,7 +75,7 @@ $ cd ./build/Desktop-Release
 $ ninja -j6
 ```
 
-If you build magnum axamples for Android you have to chekcout branch from here, only `magnum-triangle` is currrently configurable:
+If you build `magnum-axamples` for Android you have to chekcout branch from here, only `magnum-triangle` is currrently configurable:
 
 ```
 git clone -b origin/jb/android-build git@github.com:janbajana/magnum-examples.git

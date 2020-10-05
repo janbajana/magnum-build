@@ -16,7 +16,7 @@
 
 ## 1.2 Android SDK/NDK Tools
 
-You can install Android SDK tools using package manager or Android Studio directly.
+You can install Android SDK tools using package manager or Android Studio directly. Skip this section if you do not target Android.
 
 The Android NDK/SDK and tools needs to be available and the following environment variables should be set:
 

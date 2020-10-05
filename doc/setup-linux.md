@@ -12,8 +12,6 @@
 
 `sudo apt install git`
 
-`sudo apt install doxygen`
-
 `sudo apt install sdl2-dev`
 
 ## 1.2 Android SDK/NDK Tools

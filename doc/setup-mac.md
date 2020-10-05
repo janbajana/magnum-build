@@ -8,11 +8,11 @@
 
 `brew install git`
 
-`brew install doxygen`
-
 `brew install pkg-config`
 
 `brew install coreutils`
+
+`brew install SDL2`
 
 It is recommended to have installed `Xcode` as well.
 

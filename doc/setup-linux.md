@@ -14,6 +14,8 @@
 
 `sudo apt install doxygen`
 
+`sudo apt install sdl2-dev`
+
 ## 1.2 Android SDK/NDK Tools
 
 You can install Android SDK tools using package manager or Android Studio directly.

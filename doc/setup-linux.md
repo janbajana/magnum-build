@@ -30,8 +30,6 @@ export ANDROID_NDK_HOME=$ANDROID_NDK
 
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools         
 export PATH=${PATH}:$ANDROID_NDK_HOME
-
-export HAWAII_NDK_HOME=/usr/local/hawaii-ndk-x86_64
 ```
 
 You can save configuration in:
